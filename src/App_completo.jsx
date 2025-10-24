@@ -3,13 +3,13 @@ import './index.css';
 import RequirementsForm from './components/RequirementsForm';
 import PortfolioDev from './components/PortfolioDev';
 
-// Importar imagens do portfólio
-import realPadaria from '/images/portfolio/real-padaria.svg';
-import realFarmacia from '/images/portfolio/real-farmacia.svg';
-import realModa from '/images/portfolio/real-moda.svg';
-import realMoveis from '/images/portfolio/real-moveis.svg';
-import realAdvocacia from '/images/portfolio/real-advocacia.svg';
-import realPizzaria from '/images/portfolio/real-pizzaria.svg';
+// Referenciar imagens do portfólio diretamente da pasta public
+const realPadaria = '/images/portfolio/real-padaria.svg';
+const realFarmacia = '/images/portfolio/real-farmacia.svg';
+const realModa = '/images/portfolio/real-moda.svg';
+const realMoveis = '/images/portfolio/real-moveis.svg';
+const realAdvocacia = '/images/portfolio/real-advocacia.svg';
+const realPizzaria = '/images/portfolio/real-pizzaria.svg';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
