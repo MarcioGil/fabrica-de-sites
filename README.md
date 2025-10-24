@@ -8,12 +8,13 @@
 
 Uma landing page moderna e responsiva para criação de sites e landing pages para pequenos negócios do interior.
 
-[![Deploy Status](https://img.shields.io/badge/Deploy-Live-brightgreen)](https://probable-coach.surge.sh)
+[![Deploy Status](https://img.shields.io/badge/Deploy-Live-brightgreen)](https://marciogil.github.io/fabrica-de-sites/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-blue)](https://marciogil.github.io/fabrica-de-sites/)
 [![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-5.0.8-purple)](https://vitejs.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[🌐 Ver Site Ao Vivo](https://probable-coach.surge.sh) • [📱 WhatsApp](https://wa.me/5521964949427) • [👨‍💻 Desenvolvedor](#autor)
+[🌐 Ver Site Ao Vivo](https://marciogil.github.io/fabrica-de-sites/) • [📱 WhatsApp](https://wa.me/5521964949427) • [👨‍💻 Desenvolvedor](#autor)
 
 </div>
 
@@ -143,29 +144,24 @@ fabrica-de-sites/
 ## 🌐 Deploy
 
 ### Site Oficial
-- **URL de Produção**: https://probable-coach.surge.sh
-- **CDN Global**: Distribuído em 10 regiões mundiais
+- **URL de Produção**: https://marciogil.github.io/fabrica-de-sites/
+- **GitHub Pages**: Deploy automático via GitHub Actions
 - **SSL/HTTPS**: Certificado automático incluído
 - **Performance**: Otimizado para velocidade máxima
 
 ### Deploy Automático
 
-O projeto está configurado para deploy fácil em várias plataformas:
+O projeto está configurado com **GitHub Actions** para deploy automático:
 
-```bash
-# Surge.sh (Atual)
-npm run build
-npx surge dist
-
-# Netlify
-# Arraste a pasta 'dist' para netlify.app/drop
-
-# Vercel
-npx vercel
-
-# GitHub Pages
-# Configure GitHub Actions (workflow incluído)
+```yaml
+# Trigger: Push para branch main
+# Build: npm run build
+# Deploy: GitHub Pages automático
 ```
+
+**URLs Disponíveis:**
+- **GitHub Pages (Principal)**: https://marciogil.github.io/fabrica-de-sites/
+- **Surge.sh (Backup)**: https://probable-coach.surge.sh
 
 ## 🎯 Funcionalidades Principais
 
@@ -228,10 +224,10 @@ Desenvolvedor especializado em criação de sites e landing pages para pequenos 
 
 ## 🔗 Links Importantes
 
-- **🌐 Site Oficial**: [probable-coach.surge.sh](https://probable-coach.surge.sh)
+- **🌐 Site Oficial**: [marciogil.github.io/fabrica-de-sites](https://marciogil.github.io/fabrica-de-sites/)
 - **📱 WhatsApp**: [+55 21 96494-9427](https://wa.me/5521964949427)
 - **💻 Repositório**: [github.com/MarcioGil/fabrica-de-sites](https://github.com/MarcioGil/fabrica-de-sites)
-- **📧 Email**: marciopaivagil@gmail.com
+- **📧 Email**: [marciopaivagil@gmail.com](mailto:marciopaivagil@gmail.com)
 
 ## 🎯 Call to Action
 
