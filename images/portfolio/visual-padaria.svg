@@ -1,0 +1,12 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#8B4513"/>
+  <rect x="20" y="40" width="260" height="120" fill="#D2691E" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="80" cy="80" r="25" fill="#FFD700"/>
+  <circle cx="150" cy="80" r="25" fill="#FF6B35"/>
+  <circle cx="220" cy="80" r="25" fill="#8B4513"/>
+  <rect x="60" y="120" width="40" height="20" fill="#FFD700" rx="10"/>
+  <rect x="130" y="120" width="40" height="20" fill="#FF6B35" rx="10"/>
+  <rect x="200" y="120" width="40" height="20" fill="#8B4513" rx="10"/>
+  <text x="150" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">PADARIA</text>
+  <text x="150" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Pães Frescos Diariamente</text>
+</svg>

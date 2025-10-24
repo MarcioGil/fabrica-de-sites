@@ -1,0 +1,12 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#FF1493"/>
+  <rect x="20" y="40" width="260" height="120" fill="#FFB6C1" stroke="#FF1493" stroke-width="2"/>
+  <circle cx="100" cy="70" r="15" fill="#FF1493"/>
+  <circle cx="150" cy="70" r="15" fill="#FF69B4"/>
+  <circle cx="200" cy="70" r="15" fill="#DC143C"/>
+  <rect x="80" y="100" width="35" height="30" fill="#FFB6C1" stroke="#FF1493" stroke-width="1"/>
+  <rect x="130" y="100" width="35" height="30" fill="#FFB6C1" stroke="#FF1493" stroke-width="1"/>
+  <rect x="180" y="100" width="35" height="30" fill="#FFB6C1" stroke="#FF1493" stroke-width="1"/>
+  <text x="150" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">SALÃO BELEZA</text>
+  <text x="150" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Corte & Penteados</text>
+</svg>
