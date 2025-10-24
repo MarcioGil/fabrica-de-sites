@@ -1,0 +1,15 @@
+{
+  "name": "deploy-fabrica-sites",
+  "version": "1.0.0",
+  "scripts": {
+    "deploy:surge": "npm run build && npx surge dist",
+    "deploy:netlify": "npm run build && echo 'Arraste a pasta dist para netlify.app/drop'",
+    "deploy:vercel": "npm run build && npx vercel",
+    "preview:local": "npm run build && python -m http.server 8080 --directory dist",
+    "dev:open": "npm run dev & start http://localhost:5173",
+    "build:stats": "npm run build && echo 'Build completed! Check dist folder'",
+    "check:size": "npm run build && du -sh dist/*",
+    "clean": "rm -rf dist node_modules",
+    "setup": "npm install && npm run dev"
+  }
+}

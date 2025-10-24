@@ -7,7 +7,7 @@ function App() {
       id: 1,
       title: "Padaria do Interior",
       description: "Site para padaria familiar com delivery local e produtos tradicionais.",
-      image: "https://via.placeholder.com/400x250/6366f1/white?text=Padaria+Online",
+      image: "/images/portfolio/padaria.svg",
       tags: ["E-commerce", "Delivery", "Responsivo"],
       details: "Site completo para padaria com catálogo de produtos, sistema de pedidos e integração WhatsApp."
     },
@@ -15,7 +15,7 @@ function App() {
       id: 2,
       title: "Farmácia Popular",
       description: "Site institucional para farmácia local com informações de medicamentos.",
-      image: "https://via.placeholder.com/400x250/ec4899/white?text=Farmacia+24h",
+      image: "/images/portfolio/farmacia.svg",
       tags: ["Institucional", "Saúde", "Mobile"],
       details: "Site para farmácia com foco em acessibilidade, horários e plantão emergencial."
     },
@@ -23,7 +23,7 @@ function App() {
       id: 3,
       title: "Loja de Roupas",
       description: "E-commerce para loja de roupas femininas com catálogo online.",
-      image: "https://via.placeholder.com/400x250/10b981/white?text=Moda+Fashion",
+      image: "/images/portfolio/moda.svg",
       tags: ["E-commerce", "Fashion", "SEO"],
       details: "Loja virtual completa com galeria de produtos, carrinho e redes sociais."
     }
@@ -59,7 +59,10 @@ function App() {
       <header className="header">
         <nav className="nav">
           <div className="container">
-            <a href="#home" className="logo">🍰 Doce-Code256</a>
+            <a href="#home" className="logo">
+              <img src="/logo-heart.svg" alt="Doce-Code256" style={{width: '32px', height: '32px', marginRight: '8px', verticalAlign: 'middle'}} />
+              Doce-Code256
+            </a>
             <ul className="nav-links">
               <li><a href="#home">Início</a></li>
               <li><a href="#servicos">Serviços</a></li>

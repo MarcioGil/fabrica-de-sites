@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <style>
+      .pixel { width: 4px; height: 4px; }
+      .heart-red { fill: #e53e3e; }
+      .heart-dark { fill: #c53030; }
+      .heart-light { fill: #fc8181; }
+    </style>
+  </defs>
+  
+  <!-- Coração pixelado -->
+  <!-- Linha 1 -->
+  <rect x="12" y="8" class="pixel heart-red"/>
+  <rect x="16" y="8" class="pixel heart-red"/>
+  <rect x="20" y="8" class="pixel heart-red"/>
+  <rect x="36" y="8" class="pixel heart-red"/>
+  <rect x="40" y="8" class="pixel heart-red"/>
+  <rect x="44" y="8" class="pixel heart-red"/>
+  
+  <!-- Linha 2 -->
+  <rect x="8" y="12" class="pixel heart-red"/>
+  <rect x="12" y="12" class="pixel heart-light"/>
+  <rect x="16" y="12" class="pixel heart-light"/>
+  <rect x="20" y="12" class="pixel heart-light"/>
+  <rect x="24" y="12" class="pixel heart-red"/>
+  <rect x="32" y="12" class="pixel heart-red"/>
+  <rect x="36" y="12" class="pixel heart-light"/>
+  <rect x="40" y="12" class="pixel heart-light"/>
+  <rect x="44" y="12" class="pixel heart-light"/>
+  <rect x="48" y="12" class="pixel heart-red"/>
+  
+  <!-- Linha 3 -->
+  <rect x="4" y="16" class="pixel heart-red"/>
+  <rect x="8" y="16" class="pixel heart-light"/>
+  <rect x="12" y="16" class="pixel heart-light"/>
+  <rect x="16" y="16" class="pixel heart-light"/>
+  <rect x="20" y="16" class="pixel heart-light"/>
+  <rect x="24" y="16" class="pixel heart-light"/>
+  <rect x="28" y="16" class="pixel heart-red"/>
+  <rect x="32" y="16" class="pixel heart-light"/>
+  <rect x="36" y="16" class="pixel heart-light"/>
+  <rect x="40" y="16" class="pixel heart-light"/>
+  <rect x="44" y="16" class="pixel heart-light"/>
+  <rect x="48" y="16" class="pixel heart-light"/>
+  <rect x="52" y="16" class="pixel heart-red"/>
+  
+  <!-- Linha 4 -->
+  <rect x="4" y="20" class="pixel heart-red"/>
+  <rect x="8" y="20" class="pixel heart-light"/>
+  <rect x="12" y="20" class="pixel heart-light"/>
+  <rect x="16" y="20" class="pixel heart-light"/>
+  <rect x="20" y="20" class="pixel heart-light"/>
+  <rect x="24" y="20" class="pixel heart-light"/>
+  <rect x="28" y="20" class="pixel heart-light"/>
+  <rect x="32" y="20" class="pixel heart-light"/>
+  <rect x="36" y="20" class="pixel heart-light"/>
+  <rect x="40" y="20" class="pixel heart-light"/>
+  <rect x="44" y="20" class="pixel heart-light"/>
+  <rect x="48" y="20" class="pixel heart-light"/>
+  <rect x="52" y="20" class="pixel heart-red"/>
+  
+  <!-- Linha 5 -->
+  <rect x="4" y="24" class="pixel heart-red"/>
+  <rect x="8" y="24" class="pixel heart-light"/>
+  <rect x="12" y="24" class="pixel heart-light"/>
+  <rect x="16" y="24" class="pixel heart-light"/>
+  <rect x="20" y="24" class="pixel heart-light"/>
+  <rect x="24" y="24" class="pixel heart-light"/>
+  <rect x="28" y="24" class="pixel heart-light"/>
+  <rect x="32" y="24" class="pixel heart-light"/>
+  <rect x="36" y="24" class="pixel heart-light"/>
+  <rect x="40" y="24" class="pixel heart-light"/>
+  <rect x="44" y="24" class="pixel heart-light"/>
+  <rect x="48" y="24" class="pixel heart-light"/>
+  <rect x="52" y="24" class="pixel heart-red"/>
+  
+  <!-- Linha 6 -->
+  <rect x="8" y="28" class="pixel heart-red"/>
+  <rect x="12" y="28" class="pixel heart-light"/>
+  <rect x="16" y="28" class="pixel heart-light"/>
+  <rect x="20" y="28" class="pixel heart-light"/>
+  <rect x="24" y="28" class="pixel heart-light"/>
+  <rect x="28" y="28" class="pixel heart-light"/>
+  <rect x="32" y="28" class="pixel heart-light"/>
+  <rect x="36" y="28" class="pixel heart-light"/>
+  <rect x="40" y="28" class="pixel heart-light"/>
+  <rect x="44" y="28" class="pixel heart-light"/>
+  <rect x="48" y="28" class="pixel heart-red"/>
+  
+  <!-- Linha 7 -->
+  <rect x="12" y="32" class="pixel heart-red"/>
+  <rect x="16" y="32" class="pixel heart-light"/>
+  <rect x="20" y="32" class="pixel heart-light"/>
+  <rect x="24" y="32" class="pixel heart-light"/>
+  <rect x="28" y="32" class="pixel heart-light"/>
+  <rect x="32" y="32" class="pixel heart-light"/>
+  <rect x="36" y="32" class="pixel heart-light"/>
+  <rect x="40" y="32" class="pixel heart-light"/>
+  <rect x="44" y="32" class="pixel heart-red"/>
+  
+  <!-- Linha 8 -->
+  <rect x="16" y="36" class="pixel heart-red"/>
+  <rect x="20" y="36" class="pixel heart-light"/>
+  <rect x="24" y="36" class="pixel heart-light"/>
+  <rect x="28" y="36" class="pixel heart-light"/>
+  <rect x="32" y="36" class="pixel heart-light"/>
+  <rect x="36" y="36" class="pixel heart-light"/>
+  <rect x="40" y="36" class="pixel heart-red"/>
+  
+  <!-- Linha 9 -->
+  <rect x="20" y="40" class="pixel heart-red"/>
+  <rect x="24" y="40" class="pixel heart-light"/>
+  <rect x="28" y="40" class="pixel heart-light"/>
+  <rect x="32" y="40" class="pixel heart-light"/>
+  <rect x="36" y="40" class="pixel heart-red"/>
+  
+  <!-- Linha 10 -->
+  <rect x="24" y="44" class="pixel heart-red"/>
+  <rect x="28" y="44" class="pixel heart-light"/>
+  <rect x="32" y="44" class="pixel heart-red"/>
+  
+  <!-- Linha 11 -->
+  <rect x="28" y="48" class="pixel heart-red"/>
+</svg>
