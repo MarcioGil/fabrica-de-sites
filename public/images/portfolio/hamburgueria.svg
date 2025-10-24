@@ -1,0 +1,27 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#fff3e0"/>
+  <rect x="50" y="50" width="300" height="200" fill="#ffffff" rx="10" stroke="#ff9800" stroke-width="2"/>
+  
+  <!-- Hamburger -->
+  <ellipse cx="150" cy="140" rx="30" ry="8" fill="#8B4513"/> <!-- Top bun -->
+  <rect x="120" y="140" width="60" height="8" fill="#4caf50"/> <!-- Lettuce -->
+  <rect x="120" y="148" width="60" height="12" fill="#8B4513"/> <!-- Patty -->
+  <rect x="120" y="160" width="60" height="6" fill="#ffeb3b"/> <!-- Cheese -->
+  <ellipse cx="150" cy="170" rx="30" ry="8" fill="#DEB887"/> <!-- Bottom bun -->
+  
+  <!-- Hot Dog -->
+  <ellipse cx="250" cy="150" rx="40" ry="10" fill="#DEB887"/> <!-- Bun -->
+  <ellipse cx="250" cy="150" rx="35" ry="6" fill="#8B4513"/> <!-- Sausage -->
+  
+  <!-- Fries -->
+  <rect x="300" y="120" width="4" height="25" fill="#FFD700"/>
+  <rect x="305" y="115" width="4" height="30" fill="#FFD700"/>
+  <rect x="310" y="120" width="4" height="25" fill="#FFD700"/>
+  <rect x="315" y="118" width="4" height="27" fill="#FFD700"/>
+  
+  <!-- Store Name -->
+  <text x="200" y="100" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#ff6600">BURGER HOUSE</text>
+  
+  <text x="200" y="220" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#333">Hamburgueria Burger House</text>
+  <text x="200" y="240" text-anchor="middle" font-family="Arial" font-size="12" fill="#666">Os melhores hamburgers da cidade</text>
+</svg>
