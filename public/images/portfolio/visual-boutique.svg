@@ -1,0 +1,14 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#FF1493"/>
+  <rect x="20" y="40" width="260" height="120" fill="#FFB6C1" stroke="#FF1493" stroke-width="2"/>
+  <rect x="80" y="70" width="40" height="60" fill="#FFC0CB" stroke="#FF1493" stroke-width="1"/>
+  <rect x="120" y="70" width="40" height="60" fill="#FFC0CB" stroke="#FF1493" stroke-width="1"/>
+  <rect x="160" y="70" width="40" height="60" fill="#FFC0CB" stroke="#FF1493" stroke-width="1"/>
+  <rect x="200" y="70" width="40" height="60" fill="#FFC0CB" stroke="#FF1493" stroke-width="1"/>
+  <circle cx="100" cy="60" r="8" fill="#FF69B4"/>
+  <circle cx="140" cy="60" r="8" fill="#FF69B4"/>
+  <circle cx="180" cy="60" r="8" fill="#FF69B4"/>
+  <circle cx="220" cy="60" r="8" fill="#FF69B4"/>
+  <text x="150" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">BOUTIQUE</text>
+  <text x="150" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Moda Feminina</text>
+</svg>

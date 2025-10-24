@@ -1,0 +1,12 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#FF4500"/>
+  <rect x="20" y="40" width="260" height="120" fill="#FFE4E1" stroke="#FF4500" stroke-width="2"/>
+  <rect x="80" y="70" width="50" height="25" fill="#FF6347" rx="12"/>
+  <rect x="170" y="70" width="50" height="25" fill="#32CD32" rx="12"/>
+  <circle cx="105" cy="82" r="8" fill="#8B4513"/>
+  <circle cx="195" cy="82" r="8" fill="#228B22"/>
+  <rect x="60" y="110" width="80" height="15" fill="#FF6347" rx="7"/>
+  <rect x="160" y="110" width="80" height="15" fill="#32CD32" rx="7"/>
+  <text x="150" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">LANCHONETE</text>
+  <text x="150" y="180" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Lanches Deliciosos</text>
+</svg>

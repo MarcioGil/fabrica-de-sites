@@ -1,0 +1,11 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#4B0082"/>
+  <circle cx="150" cy="100" r="70" fill="#9932CC"/>
+  <circle cx="150" cy="80" r="25" fill="#8A2BE2"/>
+  <circle cx="130" cy="110" r="15" fill="#9370DB"/>
+  <circle cx="170" cy="110" r="15" fill="#9370DB"/>
+  <circle cx="150" cy="130" r="12" fill="#BA55D3"/>
+  <rect x="120" y="140" width="60" height="20" fill="#FFD700" rx="10"/>
+  <text x="150" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">AÇAÍ</text>
+  <text x="150" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Açaí Premium</text>
+</svg>

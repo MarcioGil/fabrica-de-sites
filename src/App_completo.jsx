@@ -4,12 +4,18 @@ import RequirementsForm from './components/RequirementsForm';
 import PortfolioDev from './components/PortfolioDev';
 
 // Referenciar imagens do portfólio diretamente da pasta public
-const realPadaria = '/images/portfolio/real-padaria.svg';
-const realFarmacia = '/images/portfolio/real-farmacia.svg';
-const realModa = '/images/portfolio/real-moda.svg';
-const realMoveis = '/images/portfolio/real-moveis.svg';
-const realAdvocacia = '/images/portfolio/real-advocacia.svg';
-const realPizzaria = '/images/portfolio/real-pizzaria.svg';
+const visualPadaria = '/images/portfolio/visual-padaria.svg';
+const visualSacolao = '/images/portfolio/visual-sacolao.svg';
+const visualSalao = '/images/portfolio/visual-salao.svg';
+const visualLanchonete = '/images/portfolio/visual-lanchonete.svg';
+const visualPizzaria = '/images/portfolio/visual-pizzaria.svg';
+const visualAcai = '/images/portfolio/visual-acai.svg';
+const visualAngu = '/images/portfolio/visual-angu.svg';
+const visualHamburger = '/images/portfolio/visual-hamburger.svg';
+const visualMinimercado = '/images/portfolio/visual-minimercado.svg';
+const visualFarmacia = '/images/portfolio/visual-farmacia.svg';
+const visualBoutique = '/images/portfolio/visual-boutique.svg';
+const logoVisual = '/images/logo-visual.svg';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,29 +30,29 @@ function App() {
   const [showForm, setShowForm] = useState(false);
   const [showRequirements, setShowRequirements] = useState(false);
 
-  // Portfolio com imagens reais
+  // Portfolio com imagens visuais
   const portfolioProjects = [
     {
       id: 1,
       title: "Padaria Doce Manhã",
       description: "Site institucional com catálogo de produtos e sistema de encomendas online",
-      image: realPadaria,
+      image: visualPadaria,
       tech: ["React", "Node.js", "MongoDB"],
       category: "E-commerce"
     },
     {
       id: 2,
-      title: "Farmácia Popular",
-      description: "Portal completo com delivery de medicamentos e consulta médica online",
-      image: realFarmacia,
+      title: "Sacolão Verduras Frescas",
+      description: "Portal completo com delivery de frutas e verduras",
+      image: visualSacolao,
       tech: ["Vue.js", "Express", "PostgreSQL"],
-      category: "Saúde"
+      category: "Alimentação"
     },
     {
       id: 3,
-      title: "Moda Elegante",
-      description: "Loja virtual de roupas femininas com sistema de pagamento integrado",
-      image: realModa,
+      title: "Salão Beleza Premium",
+      description: "Sistema de agendamento e catálogo de serviços",
+      image: visualSalao,
       tech: ["Angular", "Python", "SQLite"],
       category: "Fashion"
     },
@@ -178,86 +184,7 @@ function App() {
         <div className="nav-container">
           <div className="nav-logo">
             <div className="heart-logo">
-              <svg width="32" height="32" viewBox="0 0 64 64">
-                <rect x="12" y="8" width="4" height="4" fill="#e53e3e"/>
-                <rect x="16" y="8" width="4" height="4" fill="#e53e3e"/>
-                <rect x="20" y="8" width="4" height="4" fill="#e53e3e"/>
-                <rect x="36" y="8" width="4" height="4" fill="#e53e3e"/>
-                <rect x="40" y="8" width="4" height="4" fill="#e53e3e"/>
-                <rect x="44" y="8" width="4" height="4" fill="#e53e3e"/>
-                <rect x="8" y="12" width="4" height="4" fill="#e53e3e"/>
-                <rect x="12" y="12" width="4" height="4" fill="#fc8181"/>
-                <rect x="16" y="12" width="4" height="4" fill="#fc8181"/>
-                <rect x="20" y="12" width="4" height="4" fill="#fc8181"/>
-                <rect x="24" y="12" width="4" height="4" fill="#e53e3e"/>
-                <rect x="32" y="12" width="4" height="4" fill="#e53e3e"/>
-                <rect x="36" y="12" width="4" height="4" fill="#fc8181"/>
-                <rect x="40" y="12" width="4" height="4" fill="#fc8181"/>
-                <rect x="44" y="12" width="4" height="4" fill="#fc8181"/>
-                <rect x="48" y="12" width="4" height="4" fill="#e53e3e"/>
-                <rect x="4" y="16" width="4" height="4" fill="#e53e3e"/>
-                <rect x="8" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="12" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="16" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="20" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="24" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="28" y="16" width="4" height="4" fill="#e53e3e"/>
-                <rect x="32" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="36" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="40" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="44" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="48" y="16" width="4" height="4" fill="#fc8181"/>
-                <rect x="52" y="16" width="4" height="4" fill="#e53e3e"/>
-                <rect x="4" y="20" width="4" height="4" fill="#e53e3e"/>
-                <rect x="8" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="12" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="16" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="20" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="24" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="28" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="32" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="36" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="40" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="44" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="48" y="20" width="4" height="4" fill="#fc8181"/>
-                <rect x="52" y="20" width="4" height="4" fill="#e53e3e"/>
-                <rect x="8" y="24" width="4" height="4" fill="#e53e3e"/>
-                <rect x="12" y="24" width="4" height="4" fill="#fc8181"/>
-                <rect x="16" y="24" width="4" height="4" fill="#fc8181"/>
-                <rect x="20" y="24" width="4" height="4" fill="#fc8181"/>
-                <rect x="24" y="24" width="4" height="4" fill="#fc8181"/>
-                <rect x="28" y="24" width="4" height="4" fill="#fc8181"/>
-                <rect x="32" y="24" width="4" height="4" fill="#fc8181"/>
-                <rect x="36" y="24" width="4" height="4" fill="#fc8181"/>
-                <rect x="40" y="24" width="4" height="4" fill="#fc8181"/>
-                <rect x="44" y="24" width="4" height="4" fill="#fc8181"/>
-                <rect x="48" y="24" width="4" height="4" fill="#e53e3e"/>
-                <rect x="12" y="28" width="4" height="4" fill="#e53e3e"/>
-                <rect x="16" y="28" width="4" height="4" fill="#fc8181"/>
-                <rect x="20" y="28" width="4" height="4" fill="#fc8181"/>
-                <rect x="24" y="28" width="4" height="4" fill="#fc8181"/>
-                <rect x="28" y="28" width="4" height="4" fill="#fc8181"/>
-                <rect x="32" y="28" width="4" height="4" fill="#fc8181"/>
-                <rect x="36" y="28" width="4" height="4" fill="#fc8181"/>
-                <rect x="40" y="28" width="4" height="4" fill="#fc8181"/>
-                <rect x="44" y="28" width="4" height="4" fill="#e53e3e"/>
-                <rect x="16" y="32" width="4" height="4" fill="#e53e3e"/>
-                <rect x="20" y="32" width="4" height="4" fill="#fc8181"/>
-                <rect x="24" y="32" width="4" height="4" fill="#fc8181"/>
-                <rect x="28" y="32" width="4" height="4" fill="#fc8181"/>
-                <rect x="32" y="32" width="4" height="4" fill="#fc8181"/>
-                <rect x="36" y="32" width="4" height="4" fill="#fc8181"/>
-                <rect x="40" y="32" width="4" height="4" fill="#e53e3e"/>
-                <rect x="20" y="36" width="4" height="4" fill="#e53e3e"/>
-                <rect x="24" y="36" width="4" height="4" fill="#fc8181"/>
-                <rect x="28" y="36" width="4" height="4" fill="#fc8181"/>
-                <rect x="32" y="36" width="4" height="4" fill="#fc8181"/>
-                <rect x="36" y="36" width="4" height="4" fill="#e53e3e"/>
-                <rect x="24" y="40" width="4" height="4" fill="#e53e3e"/>
-                <rect x="28" y="40" width="4" height="4" fill="#fc8181"/>
-                <rect x="32" y="40" width="4" height="4" fill="#e53e3e"/>
-                <rect x="28" y="44" width="4" height="4" fill="#e53e3e"/>
-              </svg>
+              <img src={logoVisual} alt="Fábrica de Sites" width="32" height="32" />
             </div>
             <span className="logo-text">Fábrica de Sites</span>
           </div>
@@ -359,7 +286,9 @@ function App() {
               <h3>🏪 Negócios Populares & Familiares</h3>
               <div className="examples-grid">
                 <div className="example-card popular">
-                  <div className="example-icon">🍲</div>
+                  <div className="example-icon">
+                    <img src={visualAngu} alt="Angu à Baiana" style={{width: '60px', height: '40px', borderRadius: '8px'}} />
+                  </div>
                   <div className="example-content">
                     <h4>Angu à Baiana da Tia Conceição</h4>
                     <p>Restaurante nordestino com 25 anos de tradição</p>
@@ -372,7 +301,9 @@ function App() {
                 </div>
 
                 <div className="example-card popular">
-                  <div className="example-icon">🌭</div>
+                  <div className="example-icon">
+                    <img src={visualHamburger} alt="Cachorro Quente" style={{width: '60px', height: '40px', borderRadius: '8px'}} />
+                  </div>
                   <div className="example-content">
                     <h4>Cachorro Quente do Zé</h4>
                     <p>Carrinho de rua tradicional há 29 anos</p>
@@ -385,7 +316,9 @@ function App() {
                 </div>
 
                 <div className="example-card popular">
-                  <div className="example-icon">🏪</div>
+                  <div className="example-icon">
+                    <img src={visualMinimercado} alt="Mini Mercado" style={{width: '60px', height: '40px', borderRadius: '8px'}} />
+                  </div>
                   <div className="example-content">
                     <h4>Mini Mercado do Seu João</h4>
                     <p>Conveniência de bairro com produtos essenciais</p>
@@ -398,7 +331,9 @@ function App() {
                 </div>
 
                 <div className="example-card popular">
-                  <div className="example-icon">🏥</div>
+                  <div className="example-icon">
+                    <img src={visualFarmacia} alt="Farmácia" style={{width: '60px', height: '40px', borderRadius: '8px'}} />
+                  </div>
                   <div className="example-content">
                     <h4>Farmácia Vida & Saúde</h4>
                     <p>Farmácia 24h com atendimento de emergência</p>
@@ -416,7 +351,9 @@ function App() {
               <h3>🏢 Negócios Profissionais & Especializados</h3>
               <div className="examples-grid">
                 <div className="example-card professional">
-                  <div className="example-icon">👗</div>
+                  <div className="example-icon">
+                    <img src={visualBoutique} alt="Boutique" style={{width: '60px', height: '40px', borderRadius: '8px'}} />
+                  </div>
                   <div className="example-content">
                     <h4>Boutique Elegance</h4>
                     <p>Loja de roupas femininas com estilo único</p>
@@ -429,7 +366,9 @@ function App() {
                 </div>
 
                 <div className="example-card professional">
-                  <div className="example-icon">✂️</div>
+                  <div className="example-icon">
+                    <img src={visualSalao} alt="Salão" style={{width: '60px', height: '40px', borderRadius: '8px'}} />
+                  </div>
                   <div className="example-content">
                     <h4>Studio Hair & Beauty</h4>
                     <p>Salão de beleza com agendamento online</p>
@@ -442,7 +381,9 @@ function App() {
                 </div>
 
                 <div className="example-card professional">
-                  <div className="example-icon">🍕</div>
+                  <div className="example-icon">
+                    <img src={visualPizzaria} alt="Pizzaria" style={{width: '60px', height: '40px', borderRadius: '8px'}} />
+                  </div>
                   <div className="example-content">
                     <h4>Pizzaria Nonna Rosa</h4>
                     <p>Pizzaria italiana com tradição familiar</p>
@@ -455,7 +396,9 @@ function App() {
                 </div>
 
                 <div className="example-card professional">
-                  <div className="example-icon">🍓</div>
+                  <div className="example-icon">
+                    <img src={visualAcai} alt="Açaí" style={{width: '60px', height: '40px', borderRadius: '8px'}} />
+                  </div>
                   <div className="example-content">
                     <h4>Açaí Tropical Brasil</h4>
                     <p>Loja de açaí premium com toppings especiais</p>

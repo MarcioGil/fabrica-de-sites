@@ -1,0 +1,12 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="200" fill="#FF4500"/>
+  <rect x="20" y="50" width="260" height="100" fill="#FFE4B5" stroke="#FF4500" stroke-width="2"/>
+  <ellipse cx="100" cy="80" rx="30" ry="15" fill="#8B4513"/>
+  <ellipse cx="200" cy="80" rx="30" ry="15" fill="#8B4513"/>
+  <rect x="70" y="110" width="60" height="20" fill="#FF6B35" rx="10"/>
+  <rect x="170" y="110" width="60" height="20" fill="#FF6B35" rx="10"/>
+  <circle cx="100" cy="100" r="5" fill="#FFD700"/>
+  <circle cx="200" cy="100" r="5" fill="#FFD700"/>
+  <text x="150" y="30" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">HAMBÚRGUER</text>
+  <text x="150" y="185" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">Lanches Artesanais</text>
+</svg>
