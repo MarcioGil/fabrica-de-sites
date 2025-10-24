@@ -1016,15 +1016,7 @@ function App() {
             <div className="footer-section">
               <h4>
                 <div className="heart-logo">
-                  <svg width="24" height="24" viewBox="0 0 64 64">
-                    <rect x="12" y="8" width="4" height="4" fill="#e53e3e"/>
-                    <rect x="16" y="8" width="4" height="4" fill="#e53e3e"/>
-                    <rect x="20" y="8" width="4" height="4" fill="#e53e3e"/>
-                    <rect x="36" y="8" width="4" height="4" fill="#e53e3e"/>
-                    <rect x="40" y="8" width="4" height="4" fill="#e53e3e"/>
-                    <rect x="44" y="8" width="4" height="4" fill="#e53e3e"/>
-                    <rect x="28" y="44" width="4" height="4" fill="#e53e3e"/>
-                  </svg>
+                  <img src={logoVisual} alt="Fábrica de Sites" width="24" height="24" />
                 </div>
                 Fábrica de Sites
               </h4>
